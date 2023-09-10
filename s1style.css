@@ -11,7 +11,7 @@ h1, h2, p{
     font-size: 20px;
 }
 
-/* Style the header */
+
 header {
     
     color: #fff;
@@ -21,9 +21,12 @@ header {
 
 /* main content */
 main {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 20px;
     color: #fff;
+
 }
 
 /*sections */
@@ -39,8 +42,12 @@ h2 {
 
 /*links */
 a {
-    color: #007bff;
+    color: #fff;
     text-decoration: none;
+}
+
+a:hover {
+    color: #007bff; /* Green color */
 }
 
 /* Style the GitHub URL link */
